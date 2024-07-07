@@ -1,0 +1,126 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=DM+Sans:opsz@9..40&family=Montserrat:ital,wght@0,400;1,200&family=Poppins&family=Roboto+Condensed:wght@703&display=swap');
+
+/* Default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+body {
+    background:#3798D7;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+header nav {
+    width: 100%;
+    padding: 10px;
+    background: #dd0606;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+header nav h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 55px;
+    color: #ffffff;
+}
+header nav h1 span{
+    color: #faf20b;
+}
+header nav i{
+    cursor: pointer;
+}
+.flags{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+    gap: 10px;
+    margin: 80px auto;
+    width: 100%;
+    margin-bottom: 0;
+}
+.flags.hide{
+    display: none;
+}
+.flags .one-flag{
+    margin: 30px;
+    max-width: 440px;
+    cursor: pointer;
+    background: #ffffff;
+    padding: 20px;
+}
+
+.flags .one-flag img{
+    display: block;
+    width: 280px;
+    height: auto;
+    border: 4px solid #ffffff;
+    pointer-events: none;
+    user-select: none;
+}
+.flags .one-flag{
+    text-align: center;
+}
+.flags .one-flag h2{
+    font-size: 20px;
+    margin: 4px 0 8px;
+}
+.flags .one-flag  button{
+    width: 80%;
+    margin: 0 auto;
+    padding: 4px 4px;
+    background: #dd0606;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.flag-info{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+.flag-info.hide{
+    display: none;
+}
+.flag-info .info{
+    background: #f5f5f5;
+    border-radius: 25px;
+    width: 480px;
+    padding: 20px 20px 10px;
+    text-align: center;
+}
+.flag-info .info ul{
+    list-style: none;
+}
+.flag-info .info img{
+    width: 320px;
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+}
+.flag-info .info ul li, .flag-info .info h2{
+    margin: 0 0 14px;
+}
+.flag-info .info ul li {
+    font-size: 18px;
+}
+.flag-info .info button{
+    padding: 4px 13px;
+    font-size: 20px;
+    background:#3798D7;
+    color:#fff;
+    border:none;
+    cursor: pointer;
+}
+
